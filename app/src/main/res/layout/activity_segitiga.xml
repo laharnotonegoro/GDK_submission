@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".segitiga">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@id/linear_segitiga2">
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btn_kalkulator"
+            android:text="Kalkulator"
+            android:textSize="20dp"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btn_share"
+            android:text="Share"
+            android:textSize="20dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:id="@+id/liniear_segitiga">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/segitiga"
+            android:id="@+id/persegi"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Segitiga adalah bangun datar yang dibentuk oleh riga garis lurus yang saling
+            berpotongan. Segitiga dibentuk oleh 3 buah titik sudut yang letaknya tidak segaris dihubungkan.
+            Untuk setiap segitiga selalu berlaku sifat-sifat yaitu, jumlah panjang dua sisi selalu lebih
+            besar daripada panjang sisi segitiga;"
+            android:id="@+id/txt_segitiga1"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@id/liniear_segitiga"
+        android:id="@+id/linear_segitiga2">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="jumlah sudut-sudut sebuah segitiga adalah 180 derajat;
+            sudut terbesar adalah sudut yang menghadap sisi terpanjang, sedangkan sudut terkecil adalah
+            sudut yang menghadap sisi terpendek; besar sudut luar sama dengan jumlah dua sudut yang
+            tidak berpenglurus dengan sudut luar tersebut. Tetang segitiga, banyak dibahas dalam ilmu Matematika."
+        android:id="@+id/txt_segitiga2"/>
+    </LinearLayout>
+</RelativeLayout>

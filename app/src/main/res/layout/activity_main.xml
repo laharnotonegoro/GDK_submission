@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:layout_marginRight="@dimen/activity_horizontal_margin"
+        android:layout_marginBottom="@dimen/activity_vertical_margin">
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_segituga"
+        android:textSize="24sp"
+        android:textColor="#000"
+        android:text="SEGITIGA"
+        android:background="#ffffff"
+        android:padding="10dp"
+        android:layout_margin="10dp"
+        android:drawableLeft="@drawable/segitiga"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_oval"
+        android:textSize="24sp"
+        android:textColor="#000"
+        android:text="OVAL"
+        android:background="#ffffff"
+        android:padding="10dp"
+        android:layout_margin="10dp"
+        android:drawableLeft="@drawable/oval"
+        android:layout_below="@id/btn_segituga"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_persegi"
+        android:textSize="24sp"
+        android:textColor="#000"
+        android:text="PERSEGI"
+        android:background="#ffffff"
+        android:padding="10dp"
+        android:layout_margin="10dp"
+        android:drawableLeft="@drawable/persegi"
+        android:layout_below="@id/btn_oval"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_layanglayang"
+        android:textSize="24sp"
+        android:textColor="#000"
+        android:text="LAYANG-LAYANG"
+        android:background="#ffffff"
+        android:padding="10dp"
+        android:layout_margin="10dp"
+        android:drawableLeft="@drawable/layang_layang"
+        android:layout_below="@id/btn_persegi"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_lingkaran"
+        android:layout_below="@id/btn_layanglayang"
+        android:textSize="24sp"
+        android:textColor="#000"
+        android:text="LINGKARAN"
+        android:background="#ffffff"
+        android:padding="10dp"
+        android:layout_margin="10dp"
+        android:drawableLeft="@drawable/lingkaran"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_belah_ketupat"
+        android:layout_below="@id/btn_lingkaran"
+        android:textSize="24sp"
+        android:textColor="#000"
+        android:text="BELAH KETUPAT"
+        android:background="#ffffff"
+        android:padding="10dp"
+        android:layout_margin="10dp"
+        android:drawableLeft="@drawable/belah_ketupat"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_jajar_genjang"
+        android:layout_below="@id/btn_belah_ketupat"
+        android:textSize="24sp"
+        android:textColor="#000"
+        android:text="JAJAR GENJANG"
+        android:background="#ffffff"
+        android:padding="10dp"
+        android:layout_margin="10dp"
+        android:drawableLeft="@drawable/jajar_genjang"/>
+    </TableLayout>
+    </LinearLayout>
+</ScrollView>

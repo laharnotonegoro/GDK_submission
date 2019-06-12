@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.gdk_submission">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".kalkulator_lingkaran"></activity>
+        <activity android:name=".kalkulator_persegi" />
+        <activity android:name=".belah_ketupat" />
+        <activity android:name=".segitiga" />
+        <activity android:name=".jajar_genjang" />
+        <activity android:name=".layang_layang" />
+        <activity android:name=".oval" />
+        <activity android:name=".lingkaran" />
+        <activity android:name=".persegi" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

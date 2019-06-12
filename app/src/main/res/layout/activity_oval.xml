@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".oval">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@id/linear_oval">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btn_kalkulator"
+            android:text="Kalkulator"
+            android:textSize="20dp"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btn_share"
+            android:text="Share"
+            android:textSize="20dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:id="@+id/linear_oval">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/oval"
+            android:id="@+id/oval"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Dalam matematika, sebuah elips atau oval adalah gambar yang menyerupai
+            lingkaran yang telah dipanjangkan ke satu arah. Elips adalah salah satu contoh dari
+            irisan kerucut dan dapat didefinisikan sebagai lokus dari semua titik, dalam satu bidang,
+            yang memiliki jumlah jarak yang sama dari dua titik tetap yang telah ditentukan
+            sebelumnya (disebut fokus)."
+            android:id="@+id/txt_oval"/>
+    </LinearLayout>
+
+</RelativeLayout>

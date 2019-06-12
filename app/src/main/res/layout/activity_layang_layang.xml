@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".layang_layang">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@id/linear_layang_layang">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btn_kalkulator"
+            android:text="Kalkulator"
+            android:textSize="20dp"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btn_share"
+            android:text="Share"
+            android:textSize="20dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:id="@+id/linear_layang_layang">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/layang_layang"
+            android:id="@+id/layang_layang"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sifat Layang – Layang mempunyai 1 simetri lipat
+
+            Diagonal Layang Layang berpotongan tegak lurus
+
+            Mempunyai 2 sudut yg sama besar
+
+            Layang – Layang mempunyai 4 sisi dan 4 titik sudut
+
+            Mempunyai 2 Pasang sisi yang sama panjang
+
+            Salah satu Diagonal Layang Layang dapat membagi diagonal yg lain dengan sama panjang"
+            android:id="@+id/txt_layang_layang"/>
+    </LinearLayout>
+
+</RelativeLayout>

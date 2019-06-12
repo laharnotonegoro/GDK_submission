@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".belah_ketupat">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@id/linear_belah_ketupat">
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btn_kalkulator"
+            android:text="Kalkulator"
+            android:textSize="20dp"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btn_share"
+            android:text="Share"
+            android:textSize="20dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:id="@+id/linear_belah_ketupat">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/belah_ketupat"
+            android:id="@+id/belah_ketupat"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sifat Belah Ketupat mempunyai 2 buah simetri lipat
+
+            Belah Ketupat mempunyai Simetri Putar tingkat 2
+
+            Keempat sisi belah ketupat memiliki panjang yang sama
+
+            Diagonal Belah Ketupat berpotongan tegak lurus
+
+            Dua Pasang Sudut Belah Ketupat saling berhadapan sama besar
+
+            Mempunyai 4 buah sisi dan 4 buah titik sudut"
+            android:id="@+id/txt_belah_ketupat"/>
+    </LinearLayout>
+
+</RelativeLayout>
